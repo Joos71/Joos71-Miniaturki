@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Polityka prywatności aplikacji Joos71 Miniaturki korzystającej z YouTube API Services.">
+  <meta name="color-scheme" content="dark">
+  <title>Polityka prywatności – Joos71 Miniaturki</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:#0a1020;color:#f1f5fb}
+    *{box-sizing:border-box}body{margin:0;line-height:1.75;background:radial-gradient(ellipse at top left,#243353,transparent 50%),#0a1020}
+    .wrap{width:min(850px,calc(100% - 36px));margin:auto}
+    header{padding:26px 0;border-bottom:1px solid #ffffff26}header .wrap{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brand{font-weight:750;color:#fff;text-decoration:none}a{color:#ffca72}a:hover{color:#ffe1ad}a:focus-visible{outline:3px solid #ffca72;outline-offset:3px}
+    main{padding:52px 0 75px}h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.18}h2{font-size:1.25rem;margin:32px 0 8px;color:#fff}
+    p,li{color:#cbd4e3}strong{color:#f2f5fb}
+    .date{color:#b9c6db}.intro{font-size:1.08rem}
+    ul{padding-left:24px}li{margin:8px 0}
+    footer{border-top:1px solid #ffffff26;padding:28px 0 42px;color:#b9c6db;font-size:.9rem}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="./">Joos71 Miniaturki</a><a href="./">Strona główna</a></div></header>
+<main class="wrap">
+  <h1>Polityka prywatności</h1>
+  <p class="date">Aplikacja: Joos71 Miniaturki · Ostatnia aktualizacja: 18 listopada 2026 r.</p>
+  <p class="intro">Niniejsza polityka opisuje sposób używania danych przez lokalną aplikację <strong>Joos71 Miniaturki</strong>, służącą do numerowania i aktualizowania miniaturek filmów na YouTube.</p>
+
+  <h2>1. Administrator aplikacji i kontakt</h2>
+  <p>Aplikacja jest rozwijana pod nazwą <strong>Joos71</strong>. W sprawach związanych z prywatnością lub działaniem aplikacji można skontaktować się poprzez <a href="https://github.com/Joos71/Joos71-Miniaturki/issues">system zgłoszeń GitHub projektu</a>. Zgłoszenia są potencjalnie publiczne; nie należy ujawniać w nich haseł, tokenów ani innych danych poufnych.</p>
+
+  <h2>2. Wykorzystywane usługi i zakres dostępu</h2>
+  <p>Aplikacja korzysta z <strong>YouTube API Services</strong> i autoryzacji <strong>Google OAuth 2.0</strong>. Po udzieleniu zgody przez właściciela konta może uzyskać dostęp do:</p>
+  <ul>
+    <li>informacji o kanale, filmach i playlistach niezbędnych do identyfikowania odcinków i odpowiadających im miniaturek;</li>
+    <li>identyfikatorów, tytułów, kolejności filmów i bieżących miniaturek — w zakresie udostępnianym przez API i niezbędnym do pracy programu;</li>
+    <li>funkcji zmiany miniatur filmów na autoryzowanym kanale YouTube.</li>
+  </ul>
+  <p>Zakres dostępnych działań wynika z uprawnień wyświetlanych i zaakceptowanych w oknie zgody Google. Aplikacja nie wymaga przekazywania jej hasła do konta Google.</p>
+
+  <h2>3. Cel wykorzystania danych</h2>
+  <p>Dane są używane do wyszukania właściwych filmów i playlist, przygotowania numeracji, kontrolowania kolejki aktualizacji oraz wysłania przygotowanych miniaturek do filmów na kanale użytkownika. Aplikacja nie wykorzystuje danych uzyskanych z YouTube do reklamy, profilowania reklamowego ani sprzedaży danych.</p>
+
+  <h2>4. Przechowywanie i bezpieczeństwo</h2>
+  <p>Aplikacja działa lokalnie w systemie Windows. Dane robocze potrzebne do jej działania, w tym konfiguracja, stan kolejki i dzienniki, mogą być przechowywane w lokalnych plikach programu. Tokeny OAuth są przechowywane lokalnie i zabezpieczane mechanizmem <strong>Windows DPAPI</strong>. Dostęp do tych danych podlega także zabezpieczeniom konta systemu Windows.</p>
+  <p>Witryna informacyjna hostowana przez GitHub Pages nie służy do przechowywania tokenów OAuth ani do przetwarzania danych kanału. Standardowe dane techniczne związane z odwiedzeniem witryny mogą być przetwarzane przez dostawcę hostingu — GitHub — zgodnie z jego polityką.</p>
+
+  <h2>5. Udostępnianie danych</h2>
+  <p>Aplikacja przesyła do Google/YouTube dane niezbędne do wykonywania wywołań API, w tym żądania pobrania informacji i aktualizacji miniaturek. Dane uzyskane z YouTube nie są sprzedawane ani celowo udostępniane reklamodawcom. Publiczne repozytorium kodu i ta strona informacyjna nie zawierają tokenów użytkownika.</p>
+
+  <h2>6. Okres przechowywania i usuwanie</h2>
+  <p>Lokalne pliki aplikacji mogą pozostać na komputerze do czasu ich usunięcia przez użytkownika. Aby przerwać dostęp aplikacji do konta Google, można cofnąć jej uprawnienia w <a href="https://myaccount.google.com/permissions">ustawieniach dostępu do konta Google</a>. Po cofnięciu dostępu należy także usunąć lokalnie zapisane dane autoryzacyjne programu, jeżeli użytkownik chce usunąć ich kopię z komputera. Usunięcie aplikacji lub plików lokalnych nie cofa zmian miniaturek już opublikowanych na YouTube.</p>
+
+  <h2>7. Uprawnienia i wybór użytkownika</h2>
+  <p>Użytkownik samodzielnie wybiera konto w procesie OAuth i może odmówić udzielenia dostępu. Bez wymaganych uprawnień funkcje odczytu lub aktualizacji filmów mogą być niedostępne. Dostęp można w każdej chwili cofnąć w <a href="https://security.google.com/settings/security/permissions">ustawieniach bezpieczeństwa Google</a>.</p>
+
+  <h2>8. Warunki YouTube i prywatność Google</h2>
+  <p>Aplikacja korzysta z YouTube API Services. Korzystanie z integracji oznacza także zgodę na <a href="https://www.youtube.com/t/terms">Warunki korzystania z YouTube</a>. Zasady przetwarzania danych przez Google opisuje <a href="https://policies.google.com/privacy">Polityka prywatności Google</a>.</p>
+
+  <h2>9. Zmiany polityki</h2>
+  <p>Polityka może być aktualizowana wraz ze zmianami aplikacji lub wykorzystywanych usług. Aktualna wersja jest publikowana na tej stronie wraz z datą ostatniej aktualizacji.</p>
+</main>
+<footer><div class="wrap">© 2026 Joos71 · <a href="./">Wróć do strony głównej</a></div></footer>
+</body>
+</html>
