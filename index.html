@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joos71 Miniaturki – lokalna aplikacja Windows do numerowania i aktualizowania miniaturek filmów na YouTube.">
+  <meta name="color-scheme" content="dark">
+  <title>Joos71 Miniaturki – automatyczna numeracja miniaturek YouTube</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#f2f5fa;background:#0a1020}
+    *{box-sizing:border-box}body{margin:0;line-height:1.7;background:radial-gradient(ellipse at 15% 0%,#243353 0%,transparent 48%),#0a1020}
+    a{color:#ffca72}a:hover{color:#ffe1ad}a:focus-visible{outline:3px solid #ffca72;outline-offset:4px}
+    .wrap{width:min(940px,calc(100% - 36px));margin:auto}
+    header{padding:28px 0;border-bottom:1px solid #ffffff20}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .brand{font-size:1.16rem;font-weight:750;color:#fff;text-decoration:none;letter-spacing:.01em}
+    .tag{font-size:.8rem;letter-spacing:.08em;color:#ffce85;text-transform:uppercase}
+    main{padding:76px 0 64px}h1{font-size:clamp(2.3rem,6vw,4.2rem);line-height:1.12;margin:10px 0 20px;letter-spacing:-.045em}
+    h2{font-size:1.45rem;margin-top:0;line-height:1.3}p{color:#cbd4e3}
+    .lead{font-size:1.13rem;max-width:730px}
+    .accent{color:#ffd08a}.panel{border:1px solid #ffffff24;border-radius:19px;background:#101b30;padding:28px;margin-top:38px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+    .feature{padding:24px;border:1px solid #ffffff1c;border-radius:16px;background:#111c31}
+    .feature h3{font-size:1.05rem;margin:0 0 8px;color:#fff}.feature p{font-size:.94rem;margin:0}
+    .button{display:inline-block;margin-top:18px;border-radius:10px;padding:11px 18px;color:#131922;background:#ffcf83;text-decoration:none;font-weight:750}
+    .button:hover{background:#ffe1b0;color:#131922}
+    footer{padding:28px 0 45px;border-top:1px solid #ffffff25;font-size:.9rem;color:#b4c0d1}
+    footer a{margin-right:20px;display:inline-block;margin-bottom:8px}
+    @media(max-width:700px){main{padding-top:46px}.grid{grid-template-columns:1fr}.panel{padding:22px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><nav>
+    <a class="brand" href="./">Joos71 <span class="accent">Miniaturki</span></a>
+    <a href="privacy.html">Polityka prywatności</a>
+  </nav></div></header>
+  <main class="wrap">
+    <div class="tag">Aplikacja lokalna dla Windows</div>
+    <h1>Numeracja odcinków.<br><span class="accent">Miniaturki pod kontrolą.</span></h1>
+    <p class="lead"><strong>Joos71 Miniaturki</strong> to narzędzie do przygotowywania numerowanych miniaturek odcinków i zarządzania ich aktualizacją na własnym kanale YouTube. Aplikacja działa lokalnie na komputerze użytkownika.</p>
+    <div class="grid">
+      <section class="feature"><h3>Numeracja</h3><p>Dodawanie czytelnych numerów odcinków do miniaturek filmów.</p></section>
+      <section class="feature"><h3>Playlisty i kontrola</h3><p>Odczyt informacji o filmach i playlistach potrzebnych do uporządkowania serii.</p></section>
+      <section class="feature"><h3>Aktualizacja YouTube</h3><p>Przesyłanie przygotowanych miniaturek do odpowiednich filmów po autoryzacji konta Google.</p></section>
+    </div>
+    <section class="panel">
+      <h2>Jak aplikacja korzysta z konta Google?</h2>
+      <p>Aplikacja wykorzystuje <strong>YouTube API Services</strong>. Po wyrażeniu zgody w oknie Google uzyskuje uprawnienia do odczytu informacji niezbędnych do rozpoznawania filmów i playlist oraz do modyfikowania miniaturek filmów na autoryzowanym kanale. Aktualizacje są wykonywane w ramach konfiguracji i działań uruchomionych przez użytkownika.</p>
+      <p>Uwierzytelnianie odbywa się poprzez Google OAuth 2.0. Tokeny autoryzacyjne są przechowywane lokalnie w systemie Windows z użyciem mechanizmu ochrony DPAPI. Sama ta witryna ma charakter informacyjny i nie służy do logowania ani przesyłania miniaturek.</p>
+      <a class="button" href="privacy.html">Przeczytaj politykę prywatności</a>
+    </section>
+    <section class="panel">
+      <h2>Zasady i kontakt</h2>
+      <p>Korzystanie z funkcji YouTube API Services podlega <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">Warunkom korzystania z YouTube</a>; korzystając z integracji, użytkownik akceptuje te warunki. Zasady przetwarzania danych przez Google określa <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Polityka prywatności Google</a>.</p>
+      <p>Twórca: <strong>Joos71</strong>. Pytania dotyczące aplikacji lub prywatności można przesyłać przez <a href="https://github.com/Joos71/Joos71-Miniaturki/issues" target="_blank" rel="noopener noreferrer">zgłoszenia w repozytorium projektu</a>. Zgłoszenia GitHub mogą być publiczne — nie należy umieszczać w nich tokenów ani danych poufnych.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">
+    <div>© 2026 Joos71 · Joos71 Miniaturki</div>
+    <div><a href="privacy.html">Polityka prywatności</a><a href="https://www.youtube.com/t/terms">Warunki YouTube</a><a href="https://policies.google.com/privacy">Prywatność Google</a></div>
+  </div></footer>
+</body>
+</html>
